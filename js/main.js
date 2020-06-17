@@ -1,7 +1,7 @@
 //l'inserimento del nome del passeggero, dei chilometri che vuole percorrere e la selezione di una categoria (over65, minorenne, maggiorenne).
-var nomePasseggero = getElementById('nome');
-var kmDaPercorrere = getElementById('kmdapercorrere');
-var categoria = getElementById('categoria');
+var nomePasseggero = document.getElementById('nome');
+var kmDaPercorrere = document.getElementById('kmdapercorrere');
+var categoria = document.getElementById('categoria');
 //calcolo il prezzo totale del viaggio
 var costoTotale = kmDaPercorrere * 0.21;
 .console.log(costoTotale);
